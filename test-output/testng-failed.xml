@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <groups>
+    <run>
+      <include name="purchase"/>
+    </run>
+  </groups>
+  <test name="Submit Order Test">
+    <classes>
+      <class name="test.RahulshettyProject1.ShoppingPageTest"/>
+    </classes>
+  </test> <!-- Submit Order Test -->
+  <test name="ErrorValidationTest">
+    <classes>
+      <class name="test.RahulshettyProject1.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- ErrorValidationTest -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<groups>
+<run>
+<include name="purchase"/>
+</run>
+</groups>
+  <test name="Submit Order Test">
+    <classes>
+      <class name="test.RahulshettyProject1.ShoppingPageTest"/>
+      
+    </classes>
+     </test> <!-- Test -->
+    <test name="ErrorValidationTest">
+    <classes>
+      <class name="test.RahulshettyProject1.ErrorValidationsTest"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
